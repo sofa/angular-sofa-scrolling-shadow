@@ -1,0 +1,19 @@
+.sofa-scrolling-shadow-top, .sofa-scrolling-shadow-bottom {
+  position: absolute;
+  z-index: 2;
+  background: transparent no-repeat;
+  background-position: 0px 0px;
+  background-size: 100% 10px;
+  height: 10px;
+  width: 100%;
+  margin: 0px auto;
+  left: 0;
+  right: 0; }
+
+.sofa-scrolling-shadow-top {
+  background-image: -webkit-radial-gradient(50% 0, farthest-side, rgba(0, 0, 0, 0.4), transparent);
+  top: 0; }
+
+.sofa-scrolling-shadow-bottom {
+  background-image: -webkit-radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, 0.4), transparent);
+  bottom: 0; }
